@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.patient__heading {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  background-color: rgb(99, 182, 255);
+
+  
+}
+
+.name__head {
+width: 30%;
+}
+.age__head{
+  width: 35%;
+}
+.history__head{
+  width: 30%;
+}
+.add__patientbtn {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+margin-bottom: 10px;
+background-color: aqua;
+color: #000;
+border: none;
+}
+
+.patient__details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+margin-bottom: 10px; 
+}
+
+.allname__details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; 
+  border: 1px solid #ccc; 
+}
+
+.name__item {
+  width: 30%; 
+  padding: 5px; 
+ 
+}
